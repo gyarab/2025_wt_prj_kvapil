@@ -10,7 +10,9 @@ Nepřihlášený uživatel bude mít možnost si volně prohlížet stránku ve 
 Přihlášený uživatel bude mít stejné možnosti a navíc bude moci přidávat recenze a média, která na stránce chyběla. Dále bude mít možnost nahlašovat profily či média, která nemusí být v souladu s pravidly.
 
 ## Admin
-Admin bude mít na starost chod stránky - bude posuzovat, zda může být navrhnuté médium přidáno, řešení nahlášeného obsahu/profilů (mazání (média, profily) /úpravy (média))
+Admin bude mít na starost chod stránky - bude posuzovat, zda může být navrhnuté médium přidáno, řešení nahlášeného obsahu/profilů (mazání (média, profily) /úpravy (média, profily\*)) a přidávání médií (tak jako přihlášený uživatel, pod svým jménem) 
+
+\**pouze pokud bude mít svolení uživatele*
 
 # Local development
 
@@ -32,9 +34,6 @@ source ./venv/bin/activate
 
 # Windows - Bash
 source ./venv/Scripts/activate
-
-# Windows - Power shell
-...
 ```
 
 Je třeba ujistit se, že jsou nainstalovány všechny závislosti:
