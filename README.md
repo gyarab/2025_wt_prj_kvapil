@@ -15,6 +15,15 @@ Admin bude mít na starost chod stránky - bude posuzovat, zda může být navrh
 
 \**pouze pokud bude mít svolení uživatele*
 
+# Wireframe
+
+![wireframe](readme_resources\wireframe1.jpeg)
+![wireframe2](readme_resources\wireframe2.jpeg)
+
+# Userflow
+
+![userflow](readme_resources\userflow.jpeg)
+
 # Local development
 
 Aplikace používá Python Virtual Environment, před spuštěním je potřeba vytvořit venv (pokud neexistuje):
