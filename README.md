@@ -1,7 +1,8 @@
 # Webová aplikace
-Vznikla v předmětu Webové technologie na Gymnáziu Arabská ve školním roce 2025/2026 jako závěrečný projekt předmětu WT. 
-<br>
-Jedná se o webovou **databázi** pro zaznamenávání knih, her, seriálů a dalších médií, které jste zkonzumovali a neradi byste na ně zapomněli nebo je třeba jednoduše chtěli ohodnotit. **Uživatel** bude mít možnost své záznamy sdílet s ostatními, ale také si je nechat pouze pro sebe a své přátele. Uživatel nebude vázaný pouze dostupnou databázi, ale naopak si bude moct i **přídávat vlastní** média, které se v databázi ani nenachází - pokud je však bude chtít sdílet s širším publikem, bude muset návrh projít **ověřením**. Ověření bude administrováno **adminem**, který bude zodpovědný za správné ověření, podle **smluvních podmínek** a **pravidel platformy**. Platformu však bude moci navštívit (a částečně) využívat i **nepřihlášený uživatel** - budou mít možnost si média, rpofily a recenze prohlížet.
+Vznikla v rámci předmětu Webové technologie na Gymnáziu Arabská ve školním roce 2025/2026 jako závěrečný projekt předmětu WT. 
+
+# Odborný článek
+Jedná se o ***webovou* databázi** pro zaznamenávání knih, her, seriálů a dalších médií, které jste zkonzumovali a neradi byste na ně zapomněli nebo je třeba jednoduše chtěli ohodnotit. **Uživatel** bude mít možnost své záznamy sdílet s ostatními, ale také si je nechat pouze pro sebe a své přátele. Uživatel nebude vázaný pouze dostupnou databázi, ale naopak si bude moct i **přídávat vlastní** média, které se v databázi ani nenachází - pokud je však bude chtít sdílet s širším publikem, bude muset návrh projít **ověřením**. Ověření bude administrováno **adminem**, který bude zodpovědný za správné ověření, podle **smluvních podmínek** a **pravidel platformy**. Platformu však bude moci navštívit (a částečně) využívat i **nepřihlášený uživatel** - budou mít možnost si média, rpofily a recenze prohlížet.
 
 ## Uživatel (nepřihlášený)
 Nepřihlášený uživatel bude mít možnost si volně prohlížet stránku ve formě vyhledávání médií, uživatelů a recenzí. Nebude však mít možnost přidávat recenze nebo média.
