@@ -29,7 +29,7 @@ Admin bude mít na starost chod stránky - bude posuzovat, zda může být navrh
 
 ![userflow](readme_resources\userflow.jpeg)
 
-## DB scheme
+## E-R diagram
 
 ![DB-scheme](readme_resources\DB-scheme.jpeg)
 
