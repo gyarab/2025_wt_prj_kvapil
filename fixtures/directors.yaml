@@ -15,10 +15,106 @@
   fields:
     first_name: Quentin
     last_name: Tarantino
-    birth_date: 1963-03-25
+    birth_date: 1963-03-27
 - model: app.director
   pk: 4
   fields:
     first_name: Martin
     last_name: Scorsese
-    birth_date: 1942-11-20
+    birth_date: 1942-11-17
+- model: app.director
+  pk: 5
+  fields:
+    first_name: Kathryn
+    last_name: Bigelow
+    birth_date: 1951-11-27
+- model: app.director
+  pk: 6
+  fields:
+    first_name: Greta
+    last_name: Gerwig
+    birth_date: 1983-08-04
+- model: app.director
+  pk: 7
+  fields:
+    first_name: Bong
+    last_name: Joon-ho
+    birth_date: 1969-09-14
+- model: app.director
+  pk: 8
+  fields:
+    first_name: Alfonso
+    last_name: Cuarón
+    birth_date: 1961-11-28
+- model: app.director
+  pk: 9
+  fields:
+    first_name: James
+    last_name: Cameron
+    birth_date: 1954-08-16
+- model: app.director
+  pk: 10
+  fields:
+    first_name: Denis
+    last_name: Villeneuve
+    birth_date: 1967-10-03
+- model: app.director
+  pk: 11
+  fields:
+    first_name: Ava
+    last_name: DuVernay
+    birth_date: 1972-08-24
+- model: app.director
+  pk: 12
+  fields:
+    first_name: Ridley
+    last_name: Scott
+    birth_date: 1937-11-30
+- model: app.director
+  pk: 13
+  fields:
+    first_name: Francis
+    last_name: Ford Coppola
+    birth_date: 1939-04-07
+- model: app.director
+  pk: 14
+  fields:
+    first_name: Stanley
+    last_name: Kubrick
+    birth_date: 1928-07-26
+- model: app.director
+  pk: 15
+  fields:
+    first_name: David
+    last_name: Fincher
+    birth_date: 1962-08-28
+- model: app.director
+  pk: 16
+  fields:
+    first_name: Hayao
+    last_name: Miyazaki
+    birth_date: 1941-01-05
+- model: app.director
+  pk: 17
+  fields:
+    first_name: Christopher
+    last_name: McQuarrie
+    birth_date: 1968-07-19
+- model: app.director
+  pk: 18
+  fields:
+    first_name: Richard
+    last_name: Linklater
+    birth_date: 1960-07-30
+- model: app.director
+  pk: 19
+  fields:
+    first_name: Sofia
+    last_name: Coppola
+    birth_date: 1971-05-14
+- model: app.director
+  pk: 20
+  fields:
+    first_name: Peter
+    last_name: Jackson
+    birth_date: 1961-10-31

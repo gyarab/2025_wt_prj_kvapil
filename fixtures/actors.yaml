@@ -1,36 +1,120 @@
 - model: app.actor
   pk: 1
   fields:
-    first_name: Kashmir
-    last_name: Lukashnik
-    birth_date: 2026-03-27
-- model: app.actor
-  pk: 2
-  fields:
     first_name: Scarlett
     last_name: Johansson
     birth_date: 1984-11-22
 - model: app.actor
-  pk: 3
+  pk: 2
   fields:
     first_name: Ryan
     last_name: Reynolds
     birth_date: 1976-10-23
 - model: app.actor
-  pk: 4
+  pk: 3
   fields:
     first_name: Tom
     last_name: Hanks
     birth_date: 1956-07-09
 - model: app.actor
-  pk: 5
+  pk: 4
   fields:
     first_name: Meryl
     last_name: Streep
     birth_date: 1949-06-22
 - model: app.actor
-  pk: 6
+  pk: 5
   fields:
     first_name: Denzel
     last_name: Washington
     birth_date: 1954-12-28
+- model: app.actor
+  pk: 6
+  fields:
+    first_name: Leonardo
+    last_name: DiCaprio
+    birth_date: 1974-11-11
+- model: app.actor
+  pk: 7
+  fields:
+    first_name: Natalie
+    last_name: Portman
+    birth_date: 1981-06-09
+- model: app.actor
+  pk: 8
+  fields:
+    first_name: Joaquin
+    last_name: Phoenix
+    birth_date: 1974-10-28
+- model: app.actor
+  pk: 9
+  fields:
+    first_name: Emma
+    last_name: Stone
+    birth_date: 1988-11-06
+- model: app.actor
+  pk: 10
+  fields:
+    first_name: Brad
+    last_name: Pitt
+    birth_date: 1963-12-18
+- model: app.actor
+  pk: 11
+  fields:
+    first_name: Viola
+    last_name: Davis
+    birth_date: 1965-08-11
+- model: app.actor
+  pk: 12
+  fields:
+    first_name: Robert
+    last_name: Downey Jr.
+    birth_date: 1965-04-04
+- model: app.actor
+  pk: 13
+  fields:
+    first_name: Margot
+    last_name: Robbie
+    birth_date: 1990-07-02
+- model: app.actor
+  pk: 14
+  fields:
+    first_name: Tom
+    last_name: Cruise
+    birth_date: 1962-07-03
+- model: app.actor
+  pk: 15
+  fields:
+    first_name: Cate
+    last_name: Blanchett
+    birth_date: 1969-05-14
+- model: app.actor
+  pk: 16
+  fields:
+    first_name: Idris
+    last_name: Elba
+    birth_date: 1972-09-06
+- model: app.actor
+  pk: 17
+  fields:
+    first_name: Jennifer
+    last_name: Lawrence
+    birth_date: 1990-08-15
+- model: app.actor
+  pk: 18
+  fields:
+    first_name: Morgan
+    last_name: Freeman
+    birth_date: 1937-06-01
+- model: app.actor
+  pk: 19
+  fields:
+    first_name: Keanu
+    last_name: Reeves
+    birth_date: 1964-09-02
+- model: app.actor
+  pk: 20
+  fields:
+    first_name: Saoirse
+    last_name: Ronan
+    birth_date: 1994-04-12

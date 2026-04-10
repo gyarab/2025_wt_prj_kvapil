@@ -1,6 +1,55 @@
-# add real movies using the models.py as a reference
 - model: app.movie
   pk: 1
+  fields:
+    title: Once Upon a Time in Hollywood
+    release_date: 2019-07-26
+    release_year: 2019
+    genre: Drama
+    rating: 7.6
+    director: 3
+    actors: [6, 10]
+- model: app.movie
+  pk: 2
+  fields:
+    title: Schindler's List
+    release_date: 1993-12-15
+    release_year: 1993
+    genre: Biography
+    rating: 8.9
+    director: 2
+    actors: [3, 4]
+- model: app.movie
+  pk: 3
+  fields:
+    title: The Social Network
+    release_date: 2010-10-01
+    release_year: 2010
+    genre: Drama
+    rating: 7.7
+    director: 15
+    actors: [12, 10]
+- model: app.movie
+  pk: 4
+  fields:
+    title: Gravity
+    release_date: 2013-10-04
+    release_year: 2013
+    genre: Science Fiction
+    rating: 7.7
+    director: 8
+    actors: [7]
+- model: app.movie
+  pk: 5
+  fields:
+    title: Titanic
+    release_date: 1997-12-19
+    release_year: 1997
+    genre: Romance
+    rating: 7.8
+    director: 9
+    actors: [6]
+- model: app.movie
+  pk: 6
   fields:
     title: Inception
     release_date: 2010-07-16
@@ -8,24 +57,144 @@
     genre: Science Fiction
     rating: 8.8
     director: 1
-    actors: [2, 3]
+    actors: [6]
 - model: app.movie
-  pk: 2
+  pk: 7
   fields:
-    title: The Dark Knight
-    release_date: 2008-07-18
-    release_year: 2008
-    genre: Action
-    rating: 9.0
-    director: 1
-    actors: [2, 4]
-- model: app.movie
-  pk: 3
-  fields:
-    title: Interstellar
-    release_date: 2014-11-07
-    release_year: 2014
-    genre: Science Fiction
+    title: Parasite
+    release_date: 2019-05-30
+    release_year: 2019
+    genre: Thriller
     rating: 8.6
-    director: 1
-    actors: [2, 3]
+    director: 7
+    actors: [2]
+- model: app.movie
+  pk: 8
+  fields:
+    title: "Mad Max: Fury Road"
+    release_date: 2015-05-15
+    release_year: 2015
+    genre: Action
+    rating: 8.1
+    director: 12
+    actors: [13]
+- model: app.movie
+  pk: 9
+  fields:
+    title: Arrival
+    release_date: 2016-11-11
+    release_year: 2016
+    genre: Science Fiction
+    rating: 7.9
+    director: 10
+    actors: [7]
+- model: app.movie
+  pk: 10
+  fields:
+    title: Alien
+    release_date: 1979-05-25
+    release_year: 1979
+    genre: Science Fiction
+    rating: 8.4
+    director: 12
+    actors: [15]
+- model: app.movie
+  pk: 11
+  fields:
+    title: The Godfather
+    release_date: 1972-03-24
+    release_year: 1972
+    genre: Crime
+    rating: 9.2
+    director: 13
+    actors: [18]
+- model: app.movie
+  pk: 12
+  fields:
+    title: Pulp Fiction
+    release_date: 1994-10-14
+    release_year: 1994
+    genre: Crime
+    rating: 8.9
+    director: 3
+    actors: [10, 1]
+- model: app.movie
+  pk: 13
+  fields:
+    title: Fight Club
+    release_date: 1999-10-15
+    release_year: 1999
+    genre: Drama
+    rating: 8.8
+    director: 15
+    actors: [10]
+- model: app.movie
+  pk: 14
+  fields:
+    title: Boyhood
+    release_date: 2014-07-11
+    release_year: 2014
+    genre: Drama
+    rating: 7.9
+    director: 18
+    actors: [3]
+- model: app.movie
+  pk: 15
+  fields:
+    title: "The Lord of the Rings: The Fellowship of the Ring"
+    release_date: 2001-12-19
+    release_year: 2001
+    genre: Fantasy
+    rating: 8.8
+    director: 20
+    actors: [19]
+- model: app.movie
+  pk: 16
+  fields:
+    title: The Irishman
+    release_date: 2019-11-01
+    release_year: 2019
+    genre: Crime
+    rating: 7.8
+    director: 4
+    actors: [6, 10]
+- model: app.movie
+  pk: 17
+  fields:
+    title: The Hurt Locker
+    release_date: 2008-06-26
+    release_year: 2008
+    genre: War
+    rating: 7.5
+    director: 5
+    actors: [3]
+- model: app.movie
+  pk: 18
+  fields:
+    title: Gladiator
+    release_date: 2000-05-05
+    release_year: 2000
+    genre: Action
+    rating: 8.5
+    director: 12
+    actors: [18]
+- model: app.movie
+  pk: 19
+  fields:
+    title: Lost in Translation
+    release_date: 2003-09-12
+    release_year: 2003
+    genre: Drama
+    rating: 7.7
+    director: 19
+    actors: [9]
+- model: app.movie
+  pk: 20
+  fields:
+    title: Roma
+    release_date: 2018-11-21
+    release_year: 2018
+    genre: Drama
+    rating: 7.7
+    director: 8
+    actors: [7]
