@@ -3,9 +3,9 @@ from .models import Movie, Director, Actor, Review
 
 @admin.register(Movie)
 class MovieAdmin(admin.ModelAdmin):
-    list_display= ['title', 'release_year', 'genre', 'rating']
+    list_display = ['title', 'release_date', 'genre', 'rating', 'director']
     search_fields = ['title', 'genre']
-    list_filter = ['release_year', 'genre']
+    list_filter = ['release_date', 'genre']
 
 @admin.register(Director)
 class DirectorAdmin(admin.ModelAdmin):

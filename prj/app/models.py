@@ -5,12 +5,15 @@ from django.contrib.auth.models import User
 class Movie(models.Model):
     title = models.CharField(max_length=200)
     release_year = models.PositiveSmallIntegerField(null=True, blank=True)
+    release_date = models.DateField(null=True, blank=True)
     genre = models.CharField(max_length=100, null=True, blank=True)
     rating = models.FloatField(null=True, blank=True)
-    Director = models.ForeignKey('Director', on_delete=models.SET_NULL, null=True, blank=True)
+    director = models.ForeignKey('Director', on_delete=models.SET_NULL, null=True, blank=True)
+    actors = models.ManyToManyField('Actor', blank=True, related_name='movies')
 
     def __str__(self):
-        return f"{self.title} ({self.release_year if self.release_year else 'Unknown'})"
+        year = self.release_date.year if self.release_date else self.release_year
+        return f"{self.title} ({year if year else 'Unknown'})"
 
 # Game
 
@@ -22,7 +25,6 @@ class Director(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     birth_date = models.DateField(null=True, blank=True)
-    movies = models.ManyToManyField(Movie, related_name='directors', blank=True)
 
     def __str__(self):
         return f"{self.first_name} {self.last_name} ({self.birth_date.year if self.birth_date else 'Unknown'})"

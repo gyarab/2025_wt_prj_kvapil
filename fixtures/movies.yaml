@@ -1,0 +1,31 @@
+# add real movies using the models.py as a reference
+- model: app.movie
+  pk: 1
+  fields:
+    title: Inception
+    release_date: 2010-07-16
+    release_year: 2010
+    genre: Science Fiction
+    rating: 8.8
+    director: 1
+    actors: [2, 3]
+- model: app.movie
+  pk: 2
+  fields:
+    title: The Dark Knight
+    release_date: 2008-07-18
+    release_year: 2008
+    genre: Action
+    rating: 9.0
+    director: 1
+    actors: [2, 4]
+- model: app.movie
+  pk: 3
+  fields:
+    title: Interstellar
+    release_date: 2014-11-07
+    release_year: 2014
+    genre: Science Fiction
+    rating: 8.6
+    director: 1
+    actors: [2, 3]

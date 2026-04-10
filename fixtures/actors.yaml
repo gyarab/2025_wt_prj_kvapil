@@ -1,0 +1,36 @@
+- model: app.actor
+  pk: 1
+  fields:
+    first_name: Kashmir
+    last_name: Lukashnik
+    birth_date: 2026-03-27
+- model: app.actor
+  pk: 2
+  fields:
+    first_name: Scarlett
+    last_name: Johansson
+    birth_date: 1984-11-22
+- model: app.actor
+  pk: 3
+  fields:
+    first_name: Ryan
+    last_name: Reynolds
+    birth_date: 1976-10-23
+- model: app.actor
+  pk: 4
+  fields:
+    first_name: Tom
+    last_name: Hanks
+    birth_date: 1956-07-09
+- model: app.actor
+  pk: 5
+  fields:
+    first_name: Meryl
+    last_name: Streep
+    birth_date: 1949-06-22
+- model: app.actor
+  pk: 6
+  fields:
+    first_name: Denzel
+    last_name: Washington
+    birth_date: 1954-12-28
