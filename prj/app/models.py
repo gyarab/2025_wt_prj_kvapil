@@ -10,6 +10,7 @@ class Movie(models.Model):
     rating = models.FloatField(null=True, blank=True)
     director = models.ForeignKey('Director', on_delete=models.SET_NULL, null=True, blank=True)
     actors = models.ManyToManyField('Actor', blank=True, related_name='movies')
+    reviews = models.ManyToManyField(User, through='Review', related_name='reviewed_movies')
 
     def __str__(self):
         year = self.release_date.year if self.release_date else self.release_year
