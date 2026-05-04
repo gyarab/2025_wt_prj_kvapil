@@ -42,9 +42,9 @@ def get_movie(request, movie_id: int):
         return {
             "id": movie.id,
             "title": movie.title,
-            "year": movie.year,
+            #"year": movie.year,
             "rating": movie.rating,
-            "director": movie.director.name if movie.director else None
+            "director": movie.director.first_name + " " + movie.director.last_name if movie.director else None
         }
     except Movie.DoesNotExist:
         return 404, {"message": "Movie not found"}
