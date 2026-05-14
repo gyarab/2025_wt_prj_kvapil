@@ -13,3 +13,6 @@ def render_movies(request):
 
 def render_movie(request, movie_id):
     return render(request, "movie_detail.html", {"movie_id": movie_id})
+
+def render_tos(request):
+    return render(request, "tos.html")
