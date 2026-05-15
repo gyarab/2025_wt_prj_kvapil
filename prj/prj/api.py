@@ -1,16 +1,16 @@
-from ninja import NinjaAPI, Schema, ModelSchema
+from ninja import NinjaAPI, Schema
 from app.models import Movie, Director, Actor, Review
 from typing import List
 
 api = NinjaAPI()
 
-class MovieSchema(ModelSchema):
-    class Meta:
-        model = Movie
-        model_fields = "__all__"
-        exclude = ["director", "actors"]
-    director: str | None
-    actors: List[str]
+class MovieSchema(Schema):
+    id: int | None = None
+    title: str
+    year: int | None = None
+    rating: float | None = None
+    director: str | None = None
+    actors: List[str] = []
 
 class MovieListingSchema(Schema):
     count: int
