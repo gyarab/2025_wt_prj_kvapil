@@ -16,3 +16,6 @@ def render_movie(request, movie_id):
 
 def render_tos(request):
     return render(request, "tos.html")
+
+def render_api_playground(request):
+    return render(request, "api_playground.html")

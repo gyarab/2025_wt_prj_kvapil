@@ -2,56 +2,50 @@
 {% load static %}
 {% block content %}
 <style>
-    /* Container that holds both the image and the input */
-    .hero-container {
-        position: relative;
+.hero-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto 50px auto; 
+}
+    .hero-gradient-bg {
         width: 100%;
-        max-width: 800px; /* Adjust based on your layout */
-        margin: 50px auto;
+        height: 320px;
+        background: linear-gradient(to bottom, #212529 10%, #ff0000 100%);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     }
-
-    /* The background image */
-    .mnauimg {
-        width: 100%;
-        height: auto;
-        display: block;
-        border-radius: 8px; /* Optional: adds rounded corners */
-    }
-
-    /* The overlaying search bar */
     .search-overlay {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 80%; /* Adjust how wide you want the search bar to be */
+        width: 80%;
         z-index: 2;
     }
-
-    /* Optional: semi-transparent background for the row to pop */
     .search-row {
-        background: rgba(255, 255, 255, 0.2); 
+        background: rgba(255, 255, 255, 0.15);
         padding: 15px;
         border-radius: 50px;
-        backdrop-filter: blur(5px); /* Glossy effect */
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.25);
     }
 </style>
 
 <div>
-    <h1 hidden>Welcome to Ohodnoť.to</h1>
-    
     <div class="hero-container">
-        <img src="{% static 'mnau.png' %}" alt="Mňau" class="mnauimg">
+        <div class="hero-gradient-bg"></div>
 
         <div class="search-overlay">
-            <div class="row g-2 justify-content-center align-items-center search-row sticky-bottom">
+            <div class="row g-2 justify-content-center align-items-center search-row">
                 <div class="col">
                     <input type="text" class="form-control form-control-lg" placeholder="Search...">
                 </div>
                 <div class="col-auto">
                     <button class="btn btn-primary btn-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                         </svg>
                     </button>
                 </div>
