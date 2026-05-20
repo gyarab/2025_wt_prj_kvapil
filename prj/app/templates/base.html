@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
+<style>
+    .cont-gradient {
+        height: 320px;
+        background: linear-gradient(to bottom, #b70000 10%, #212529 100%);
+        /* #da0000 */
+    }
+</style>
+
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
@@ -51,9 +59,8 @@
         {% endblock %}
     </div>
 
-    <div class="container">
-        <footer class="py-3 my-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <footer class="py-3 mb-4 px-0 container-fluid cont-gradient">
+            <ul class="nav justify-content-center border-bottom border-dark pb-3 mb-3">
                 <li class="nav-item">
                     <a href="/about" class="nav-link px-2 text-body-secondary">About</a>
                 </li>
@@ -66,8 +73,6 @@
             </ul>
             <p class="text-center text-muted">© 2026 Ohodnoť.to</p>
         </footer>
-
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
